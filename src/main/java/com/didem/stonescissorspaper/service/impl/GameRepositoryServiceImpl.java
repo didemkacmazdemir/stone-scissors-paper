@@ -1,6 +1,6 @@
 package com.didem.stonescissorspaper.service.impl;
 
-import com.didem.stonescissorspaper.exception.DatabaseRelatedError;
+import com.didem.stonescissorspaper.exception.DatabaseRelatedException;
 import com.didem.stonescissorspaper.model.entity.ResultEntity;
 import com.didem.stonescissorspaper.repository.GameRepository;
 import com.didem.stonescissorspaper.service.GameRepositoryService;
@@ -19,6 +19,6 @@ public class GameRepositoryServiceImpl implements GameRepositoryService {
     public void saveResult(ResultEntity resultEntity) {
         Optional.ofNullable(resultEntity)
                 .map(gameRepository::save)
-                .orElseThrow(DatabaseRelatedError::new);
+                .orElseThrow(DatabaseRelatedException::new);
     }
 }

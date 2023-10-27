@@ -1,23 +1,26 @@
 package com.didem.stonescissorspaper.exception;
 
-import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import java.io.IOException;
-
 @ControllerAdvice
 public class GameExceptionHandler extends ResponseEntityExceptionHandler {
 
-    @ExceptionHandler(ChoiceCanNotBeNull.class)
-    public void saveException(HttpServletResponse response) throws IOException {
-        response.sendError(HttpStatus.INTERNAL_SERVER_ERROR.value());
+    @ExceptionHandler(ValueCanNotBeNull.class)
+    public ResponseEntity<String> saveException(RuntimeException response) {
+        return new ResponseEntity<>(response.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    @ExceptionHandler(DatabaseRelatedError.class)
-    public void unsubscribeException(HttpServletResponse response) throws IOException {
-        response.sendError(HttpStatus.INTERNAL_SERVER_ERROR.value());
+    @ExceptionHandler(DatabaseRelatedException.class)
+    public ResponseEntity<String> unsubscribeException(RuntimeException response) {
+        return new ResponseEntity<>(response.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+
+    @ExceptionHandler(ConversationException.class)
+    public ResponseEntity<String> handleConflict(RuntimeException response) {
+        return new ResponseEntity<>(response.getMessage(), HttpStatus.BAD_REQUEST);
     }
 }

@@ -1,6 +1,6 @@
 package com.didem.stonescissorspaper.utility;
 
-import com.didem.stonescissorspaper.exception.ChoiceCanNotBeNull;
+import com.didem.stonescissorspaper.exception.ValueCanNotBeNull;
 import com.didem.stonescissorspaper.model.enums.Choice;
 import com.didem.stonescissorspaper.model.enums.Winner;
 import lombok.AccessLevel;
@@ -23,16 +23,16 @@ public class GameUtil {
         winnerMap.put(SCISSORS, PAPER);
     }
 
-    public static Winner determineWinner(Choice player, Choice computer) {
+    public static Winner determineWinner(Choice client, Choice computer) {
 
-        if (Objects.isNull(player) || Objects.isNull(computer)) throw new ChoiceCanNotBeNull();
+        if (Objects.isNull(client) || Objects.isNull(computer)) throw new ValueCanNotBeNull("Client or Player Choice is missing");
 
-        return Objects.equals(player, computer)
+        return Objects.equals(client, computer)
                 ? TIE
-                : Optional.ofNullable(winnerMap.get(player))
-                        .filter(winner -> winner.equals(player))
-                        .map(winner -> CLIENT)
-                        .orElse(COMPUTER);
+                : Optional.ofNullable(winnerMap.get(client))
+                    .filter(c -> c.equals(computer))
+                    .map(winner -> CLIENT)
+                    .orElse(COMPUTER);
     }
 
 }

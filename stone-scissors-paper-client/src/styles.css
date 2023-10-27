@@ -1,0 +1,7 @@
+.choices {
+    display: flex;
+  }
+  
+  .button-container {
+    margin-right: 100px; /* Butonlar arasında sağ boşluk ekler */
+  }

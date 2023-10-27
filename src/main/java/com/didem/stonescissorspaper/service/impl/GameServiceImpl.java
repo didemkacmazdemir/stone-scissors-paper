@@ -1,9 +1,8 @@
 package com.didem.stonescissorspaper.service.impl;
 
-import com.didem.stonescissorspaper.model.entity.ResultEntity;
+import com.didem.stonescissorspaper.exception.ValueCanNotBeNull;
+import com.didem.stonescissorspaper.model.dto.ResponseDto;
 import com.didem.stonescissorspaper.model.enums.Choice;
-import com.didem.stonescissorspaper.model.enums.Winner;
-import com.didem.stonescissorspaper.repository.GameRepository;
 import com.didem.stonescissorspaper.service.GameRepositoryService;
 import com.didem.stonescissorspaper.service.GameService;
 import lombok.RequiredArgsConstructor;
@@ -14,6 +13,8 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.Random;
 
+import static com.didem.stonescissorspaper.utility.Converter.createResponseDto;
+import static com.didem.stonescissorspaper.utility.Converter.createResultEntity;
 import static com.didem.stonescissorspaper.utility.GameUtil.*;
 
 @Slf4j
@@ -25,22 +26,14 @@ public class GameServiceImpl implements GameService {
     private final GameRepositoryService gameRepositoryService;
 
     @Override
-    public String playGameAndSaveResult(Choice playerChoice) {
-        var computerChoice = choiceList.get(new Random().nextInt(GAME_CHOICE_SIZE));
-        log.info("Computer has chosen: {}", computerChoice.toString());
+    public ResponseDto playGameAndSaveResult(Choice playerChoice) {
+        if(Objects.isNull(playerChoice)) throw new ValueCanNotBeNull("Player Choice");
 
+        var computerChoice = choiceList.get(new Random().nextInt(GAME_CHOICE_SIZE));
         var result = determineWinner(playerChoice, computerChoice);
-        log.info("The result is: {}", result);
 
         gameRepositoryService.saveResult(createResultEntity(result));
-
-        return result.toString();
-    }
-
-    private ResultEntity createResultEntity(Winner winner) {
-        return ResultEntity.builder()
-                .winner(winner.toString())
-                .build();
+        return createResponseDto(result.toString(), computerChoice.toString());
     }
 
 }
