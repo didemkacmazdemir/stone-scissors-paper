@@ -30,13 +30,16 @@ public class GameServiceImpl implements GameService {
             throw new ValueCanNotBeNull("Player Choice");
         }
 
-        int randomIndex = new Random().nextInt(GAME_CHOICE_SIZE);
-
-        var computerChoice = choiceList.get(randomIndex);
+        var computerChoice = getComputerChoice();
         var result = determineWinner(playerChoice, computerChoice);
-
         gameRepositoryService.saveResult(createResultEntity(result));
+
         return createResponseDto(result.toString(), computerChoice.toString());
+    }
+
+    private Choice getComputerChoice(){
+        int randomIndex = new Random().nextInt(GAME_CHOICE_SIZE);
+        return choiceList.get(randomIndex);
     }
 
 }
