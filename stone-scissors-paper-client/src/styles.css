@@ -1,7 +1,57 @@
+.game-container {
+  height: 100%;
+}
 .choices {
-    display: flex;
-  }
-  
-  .button-container {
-    margin-right: 100px; /* Butonlar arasında sağ boşluk ekler */
-  }
+    display: flex; 
+}
+.head {
+  text-align: center;
+}
+.button-container {
+  margin-right: 20px; 
+  margin-left: 150px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.score {
+  position: absolute;
+  top: 450px; 
+  text-align: left;
+  left: 200px;
+  margin-top: 70px;
+}
+.rules {
+  margin-left: 110px;
+  margin-top: 5px;
+}
+.ruleses {
+  margin-left: -165px;
+  margin-top: 50px;
+}
+.result {
+ margin-left: 1000px ;
+ margin-top: 70px;
+}
+.comp-select{
+  color: black;
+}
+.comp-choose{
+  color: white;
+  font-family: "Comic Sans MS", cursive;
+}
+.score-board{
+  color: black;
+  font-family: "Comic Sans MS", cursive;
+}
+.comp-score{
+  color: white;
+  font-family: "Comic Sans MS", cursive;
+}
+.your-score{
+  color: blue;
+  font-family: "Comic Sans MS", cursive;
+}
+body{
+  background-color: dimgray;
+  font-family: "Comic Sans MS", cursive;
+}

@@ -10,7 +10,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;
-import java.util.Optional;
 import java.util.Random;
 
 import static com.didem.stonescissorspaper.utility.Converter.createResponseDto;
@@ -27,9 +26,13 @@ public class GameServiceImpl implements GameService {
 
     @Override
     public ResponseDto playGameAndSaveResult(Choice playerChoice) {
-        if(Objects.isNull(playerChoice)) throw new ValueCanNotBeNull("Player Choice");
+        if(Objects.isNull(playerChoice)){
+            throw new ValueCanNotBeNull("Player Choice");
+        }
 
-        var computerChoice = choiceList.get(new Random().nextInt(GAME_CHOICE_SIZE));
+        int randomIndex = new Random().nextInt(GAME_CHOICE_SIZE);
+
+        var computerChoice = choiceList.get(randomIndex);
         var result = determineWinner(playerChoice, computerChoice);
 
         gameRepositoryService.saveResult(createResultEntity(result));

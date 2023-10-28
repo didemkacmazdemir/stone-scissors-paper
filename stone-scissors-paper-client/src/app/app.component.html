@@ -1,27 +1,54 @@
 <div class="game-container">
-    <h1>Stone Scissors Paper</h1>
+    
+    <h1 class="head"> Stone Scissors Paper</h1>
     <div class="choices">
         <div class="button-container">
-            <button (click)="sendDataToJava('PAPER')">
-              <img src="../assets/img/paper.jpeg" alt="Paper">
-            </button>
-          </div>
-          <div class="button-container">
-            <button (click)="sendDataToJava('STONE')">
-              <img src="../assets/img/stone.png" alt="Stone">
-            </button>
-          </div>
-          <div class="button-container">
-            <button (click)="sendDataToJava('SCISSORS')">
-              <img src="../assets/img/scissors.jpeg" alt="Scissors">
-            </button>
-          </div>
+            <a (click)="getData('STONE')">
+              <img src="../assets/img/stone.jpg" alt="Stone">
+            </a>
+        </div>
+
+        <div class="button-container">
+            <a (click)="getData('PAPER')">
+              <img src="../assets/img/paper.jpg" alt="Paper">
+            </a>
+        </div>
+         
+        <div class="button-container">
+            <a (click)="getData('SCISSORS')">
+              <img src="../assets/img/scissors.jpg" alt="Scissors">
+            </a>
+        </div>
+
+          <div>
+            <h1 class="rules">Rules</h1>
+        </div>
+    
+        <div>
+            <h2 class="ruleses">
+    
+                <ul style="list-style-type: disc;">
+                    <li>Stone crushes scissors.</li><br>
+                    <li>Scissors cut paper.</li><br>
+                    <li>Paper covers rock.</li>
+                  </ul>
+                </h2>
+        </div>
     </div>
+
     <div *ngIf="data" class="result">
-      <h2>Computer Selected:</h2>
-      <p>{{ data.computerChoice }}</p>
-  
-      <h2>Result:</h2>
-      <p>{{ data.result }}</p>
+        <h2 class="comp-select">You Selected: {{ selectedChoice }}</h2>
+        <h2 class="comp-select">Computer Selected: {{ data.computerChoice }}</h2>
+
+        <h2>Result: {{ data.result }}</h2>          
     </div>
-  </div>
+
+    <div class="score">
+        <h2 class="score-board">Score Board</h2>
+        <h2 class="comp-score">Computer Score: {{ scoreService.computerScore }}</h2>
+        <h2 class="your-score">Your Score: {{ scoreService.personScore }}</h2>
+    </div>
+
+ 
+
+</div>
