@@ -3,7 +3,6 @@ package com.didem.stonescissorspaper.service.impl;
 import com.didem.stonescissorspaper.exception.ValueCanNotBeNull;
 import com.didem.stonescissorspaper.model.dto.ResponseDto;
 import com.didem.stonescissorspaper.model.entity.ResultEntity;
-import com.didem.stonescissorspaper.model.enums.Choice;
 import com.didem.stonescissorspaper.service.GameRepositoryService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -25,17 +24,16 @@ class GameServiceTest {
 
     @Test
     void throwException_WhenPlayGameAndSaveResultWithNullPlayerChoice() {
-        Choice playerChoice = null;
 
         assertThrows(ValueCanNotBeNull.class, () ->
-                gameService.playGameAndSaveResult(playerChoice));
+                gameService.playGameAndSaveResult(null));
 
         verify(gameRepositoryService, never()).saveResult(any(ResultEntity.class));
     }
 
     @Test
     void playGameAndSaveResultWithRandomChoices() {
-        Choice playerChoice = Choice.STONE;
+        var playerChoice = "STONE";
 
         ResponseDto responseDto = gameService.playGameAndSaveResult(playerChoice);
 

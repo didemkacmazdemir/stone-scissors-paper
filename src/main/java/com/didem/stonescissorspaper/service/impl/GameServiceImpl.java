@@ -9,11 +9,10 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
-import java.util.Objects;
+import java.util.Optional;
 import java.util.Random;
 
-import static com.didem.stonescissorspaper.utility.Converter.createResponseDto;
-import static com.didem.stonescissorspaper.utility.Converter.createResultEntity;
+import static com.didem.stonescissorspaper.utility.Converter.*;
 import static com.didem.stonescissorspaper.utility.GameUtil.*;
 
 @Slf4j
@@ -25,19 +24,20 @@ public class GameServiceImpl implements GameService {
     private final GameRepositoryService gameRepositoryService;
 
     @Override
-    public ResponseDto playGameAndSaveResult(Choice playerChoice) {
-        if(Objects.isNull(playerChoice)){
-            throw new ValueCanNotBeNull("Player Choice");
-        }
+    public ResponseDto playGameAndSaveResult(String playerChoice) {
+        Optional.ofNullable(playerChoice)
+                .orElseThrow(() -> new ValueCanNotBeNull("Player Choice"));
 
-        var computerChoice = getComputerChoice();
-        var result = determineWinner(playerChoice, computerChoice);
-        gameRepositoryService.saveResult(createResultEntity(result));
+        var convertedPLayerChoice = convertPlayerChoiceToEnumAndUppercase(playerChoice);
+        var computerChoice = generateRandomComputerChoice();
+        var result = determineWinner(convertedPLayerChoice, computerChoice);
+
+        gameRepositoryService.saveResult(convertWinnerToResultEntity(result));
 
         return createResponseDto(result.toString(), computerChoice.toString());
     }
 
-    private Choice getComputerChoice(){
+    private Choice generateRandomComputerChoice(){
         int randomIndex = new Random().nextInt(GAME_CHOICE_SIZE);
         return choiceList.get(randomIndex);
     }

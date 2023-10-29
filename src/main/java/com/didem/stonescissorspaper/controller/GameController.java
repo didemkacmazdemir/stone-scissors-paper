@@ -7,8 +7,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import static com.didem.stonescissorspaper.utility.Converter.clientChoiceConverter;
-
 @Slf4j
 @RestController
 @RequiredArgsConstructor
@@ -20,9 +18,7 @@ public class GameController {
     @ResponseStatus(HttpStatus.OK)
     public ResponseDto playGameAndSaveResult(@PathVariable String choice) {
         log.info("Player selected: {}", choice);
-
-        var clientChoice = clientChoiceConverter(choice);
-        return gameService.playGameAndSaveResult(clientChoice);
+        return gameService.playGameAndSaveResult(choice);
     }
 
 }

@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Converter {
-    public static Choice clientChoiceConverter(String choice) {
+    public static Choice convertPlayerChoiceToEnumAndUppercase(String choice) {
         try {
             return Optional.ofNullable(choice)
                     .map(String::toUpperCase)
@@ -23,7 +23,7 @@ public class Converter {
         }
     }
 
-    public static ResultEntity createResultEntity(Winner winner) {
+    public static ResultEntity convertWinnerToResultEntity(Winner winner) {
         return ResultEntity.builder()
                 .winner(winner.toString())
                 .build();

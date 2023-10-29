@@ -1,7 +1,6 @@
 package com.didem.stonescissorspaper.controller;
 
 import com.didem.stonescissorspaper.model.dto.ResponseDto;
-import com.didem.stonescissorspaper.model.enums.Choice;
 import com.didem.stonescissorspaper.service.impl.GameServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,15 +26,19 @@ class GameControllerTest {
 
     @Test
     void playGameAndSaveResult_AsClient() throws Exception {
-        String playerChoice = "STONE";
+        var playerChoice = "STONE";
+        var actualResult = "TIE";
+        var actualComputerChoice = "STONE";
+        var expectedResult = "TIE";
+        var expectedComputerChoice = "STONE";
 
-        ResponseDto responseDto = ResponseDto.builder().result("TIE").computerChoice("SCISSORS").build();
+        ResponseDto responseDto = ResponseDto.builder().result(actualResult).computerChoice(actualComputerChoice).build();
 
-        when(gameService.playGameAndSaveResult(Choice.STONE)).thenReturn(responseDto);
+        when(gameService.playGameAndSaveResult(playerChoice)).thenReturn(responseDto);
 
         mockMvc.perform(get( PLAY_GAME_ENDPOINT + playerChoice))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.result").value("TIE"))
-                .andExpect(jsonPath("$.computerChoice").value("SCISSORS"));
+                .andExpect(jsonPath("$.result").value(expectedResult))
+                .andExpect(jsonPath("$.computerChoice").value(expectedComputerChoice));
     }
 }

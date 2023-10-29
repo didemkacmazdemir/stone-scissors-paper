@@ -14,7 +14,7 @@ class ConverterTest {
         String expectedValue = "invalid_choice";
         String expectedMessage = "String to enum conversation error with value: " + expectedValue;
         Exception actualMessage = assertThrows(ConversationException.class, () ->
-                Converter.clientChoiceConverter(expectedValue));
+                Converter.convertPlayerChoiceToEnumAndUppercase(expectedValue));
 
         assertNotNull(actualMessage);
         assertEquals(actualMessage.getMessage(), expectedMessage);
@@ -27,7 +27,7 @@ class ConverterTest {
             "PAPER, papeR"
     })
     void convertChoiceToUpperCase_WhenValidChoiceSelected(Choice expectedChoice, String inputChoice) {
-        Choice actualChoice = Converter.clientChoiceConverter(inputChoice);
+        Choice actualChoice = Converter.convertPlayerChoiceToEnumAndUppercase(inputChoice);
 
         assertEquals(actualChoice, expectedChoice);
     }
