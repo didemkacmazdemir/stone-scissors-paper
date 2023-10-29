@@ -22,6 +22,7 @@ This application uses the H2 database. The H2 database is automatically created 
 
 # How to reach Swagger and the H2 Database
 http://localhost:8080/h2-console
+
 You may use credentials like below.
 ![img.png](img.png)
 
