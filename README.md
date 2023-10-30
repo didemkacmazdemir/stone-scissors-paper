@@ -11,6 +11,12 @@ git clone https://github.com/didemkacmazdemir/stone-scissors-paper.git
 7. Open your web browser and visit the following URL: http://localhost:4200
    The application is now up and running, ready to play the stone-paper-scissors game!
 
+# How to Play
+In your web browser, go to http://localhost:4200.
+
+Select one of the stone, paper, or scissors symbols on the page. The computer will also randomly choose a symbol.
+You'll see the winning symbol and the game result displayed on the screen.
+
 # Docker Deployment
 To containerize the application using Docker, follow these steps:
 
@@ -24,13 +30,6 @@ Build the application with Maven, including a clean install:
 
 Now, you can make REST calls to the application running inside the Docker container. For example, you can access the endpoint: http://localhost:9090/api/v1/play/game/paper.
 
-
-
-# How to Play
-In your web browser, go to http://localhost:4200.
-
-Select one of the stone, paper, or scissors symbols on the page. The computer will also randomly choose a symbol.
-You'll see the winning symbol and the game result displayed on the screen.
 
 # Using the H2 Database
 This application uses the H2 database. The H2 database is automatically created in memory when the application starts. It is used to store the game results.
