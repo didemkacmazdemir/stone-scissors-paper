@@ -1,8 +1,8 @@
 package com.didem.stonescissorspaper.exception;
 
-public class ConversationException extends RuntimeException{
+public class ConversionException extends RuntimeException{
 
-    public ConversationException(String value) {
+    public ConversionException(String value) {
         super("String to enum conversation error with value: " + value);
     }
 

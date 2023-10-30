@@ -1,6 +1,6 @@
 package com.didem.stonescissorspaper.utility;
 
-import com.didem.stonescissorspaper.exception.ConversationException;
+import com.didem.stonescissorspaper.exception.ConversionException;
 import com.didem.stonescissorspaper.model.dto.ResponseDto;
 import com.didem.stonescissorspaper.model.entity.ResultEntity;
 import com.didem.stonescissorspaper.model.enums.Choice;
@@ -19,7 +19,7 @@ public class Converter {
                     .map(Choice::valueOf)
                     .orElse(null);
         } catch (IllegalArgumentException e) {
-            throw new ConversationException(choice);
+            throw new ConversionException(choice);
         }
     }
 

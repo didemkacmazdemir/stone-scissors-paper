@@ -1,6 +1,6 @@
 package com.didem.stonescissorspaper.utility;
 
-import com.didem.stonescissorspaper.exception.ConversationException;
+import com.didem.stonescissorspaper.exception.ConversionException;
 import com.didem.stonescissorspaper.model.enums.Choice;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -13,7 +13,7 @@ class ConverterTest {
     void throwException_WhenClientChoiceConverterWithInvalidChoice() {
         String expectedValue = "invalid_choice";
         String expectedMessage = "String to enum conversation error with value: " + expectedValue;
-        Exception actualMessage = assertThrows(ConversationException.class, () ->
+        Exception actualMessage = assertThrows(ConversionException.class, () ->
                 Converter.convertPlayerChoiceToEnumAndUppercase(expectedValue));
 
         assertNotNull(actualMessage);

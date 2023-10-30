@@ -23,7 +23,7 @@ public class GameExceptionHandler extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(response.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    @ExceptionHandler(ConversationException.class)
+    @ExceptionHandler(ConversionException.class)
     public ResponseEntity<String> handleConflict(RuntimeException response) {
         log.error(response.getMessage());
         return new ResponseEntity<>(response.getMessage(), HttpStatus.BAD_REQUEST);
