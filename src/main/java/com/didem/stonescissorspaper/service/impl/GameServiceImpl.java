@@ -25,13 +25,13 @@ public class GameServiceImpl implements GameService {
 
     @Override
     public ResponseDto playGameAndSaveResult(String playerChoice) {
-        log.info("hello");
         Optional.ofNullable(playerChoice)
                 .orElseThrow(() -> new ValueCanNotBeNull("Player Choice"));
 
         var convertedPLayerChoice = convertPlayerChoiceToEnumAndUppercase(playerChoice);
         var computerChoice = generateRandomComputerChoice();
         var result = determineWinner(convertedPLayerChoice, computerChoice);
+        log.info("computer choice was : {}, player choice was: {}, and the result is: {}", computerChoice, convertedPLayerChoice, result);
 
         gameRepositoryService.saveResult(convertWinnerToResultEntity(result));
 
