@@ -25,6 +25,7 @@ public class GameServiceImpl implements GameService {
 
     @Override
     public ResponseDto playGameAndSaveResult(String playerChoice) {
+        log.info("hello");
         Optional.ofNullable(playerChoice)
                 .orElseThrow(() -> new ValueCanNotBeNull("Player Choice"));
 
