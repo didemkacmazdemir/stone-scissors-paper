@@ -7,7 +7,7 @@ git clone https://github.com/didemkacmazdemir/stone-scissors-paper.git
 4. Install NPM (Node Package Manager)
 5. Install Angular CLI
    npm install -g @angular/cli
-6. ng serve -- stone-scissors-paper-client
+6. ng serve 
 7. Open your web browser and visit the following URL: http://localhost:4200
    The application is now up and running, ready to play the stone-paper-scissors game!
 
