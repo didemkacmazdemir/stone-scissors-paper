@@ -1,0 +1,74 @@
+2023-10-30 17:41:53,654 37257 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: paper
+2023-10-30 17:44:09,331 172934 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:13,238 176841 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:18,763 182366 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:19,848 183451 [http-nio-8080-exec-8] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:20,617 184220 [http-nio-8080-exec-9] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:21,315 184918 [http-nio-8080-exec-10] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:24,029 187632 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:24,961 188564 [http-nio-8080-exec-3] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:25,541 189144 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:27,909 191512 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-10-30 17:44:33,535 197138 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-10-30 17:44:38,928 202531 [http-nio-8080-exec-9] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-10-30 17:44:43,102 206705 [http-nio-8080-exec-10] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:45,366 208969 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:47,836 211439 [http-nio-8080-exec-3] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:49,119 212722 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:50,524 214127 [http-nio-8080-exec-6] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:51,753 215356 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:52,376 215979 [http-nio-8080-exec-8] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:53,244 216847 [http-nio-8080-exec-9] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:45:37,305 8698 [main] INFO  c.d.s.controller.GameControllerTest - Starting GameControllerTest using Java 20.0.2 with PID 50088 (started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-10-30 17:45:37,307 8700 [main] INFO  c.d.s.controller.GameControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 17:45:38,999 10392 [main] INFO  c.d.s.controller.GameControllerTest - Started GameControllerTest in 1.755 seconds (process running for 14.391)
+2023-10-30 17:45:39,171 10564 [main] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 18:38:15,409 1617 [main] INFO  c.d.s.controller.GameControllerTest - Starting GameControllerTest using Java 20.0.2 with PID 52600 (started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-10-30 18:38:15,412 1620 [main] INFO  c.d.s.controller.GameControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 18:38:23,830 10038 [main] INFO  c.d.s.controller.GameControllerTest - Started GameControllerTest in 9.299 seconds (process running for 11.683)
+2023-10-30 18:38:24,002 10210 [main] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-08 22:09:40,898 8189 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:09:41,935 9226 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:39,179 454085 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:39,436 454342 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:40,004 454910 [http-nio-8080-exec-3] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:40,555 455461 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:41,091 455997 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-08 22:17:41,721 456627 [http-nio-8080-exec-6] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:42,260 457166 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:42,773 457679 [http-nio-8080-exec-8] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:43,027 457933 [http-nio-8080-exec-9] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:43,237 458143 [http-nio-8080-exec-10] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:43,431 458337 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:43,619 458525 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:44,147 459053 [http-nio-8080-exec-3] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:44,320 459226 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:44,503 459409 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:44,868 459774 [http-nio-8080-exec-6] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:45,049 459955 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:45,858 460764 [http-nio-8080-exec-8] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:49:18,103 83895 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-09 15:49:18,568 84360 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:49:19,837 85629 [http-nio-8080-exec-3] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-09 15:49:20,344 86136 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-09 15:56:17,942 87658 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-09 15:56:18,373 88089 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-09 15:56:18,908 88624 [http-nio-8080-exec-3] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-09 15:56:19,767 89483 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:20,252 89968 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:20,474 90190 [http-nio-8080-exec-6] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:20,617 90333 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:20,794 90510 [http-nio-8080-exec-8] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:21,005 90721 [http-nio-8080-exec-9] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:21,214 90930 [http-nio-8080-exec-10] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:21,651 91367 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:21,812 91528 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:07:38,553 768269 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-09 16:07:52,032 781748 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-09 16:07:58,909 788625 [http-nio-8080-exec-6] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:08:00,049 789765 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:08:01,297 791013 [http-nio-8080-exec-8] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:08:02,031 791747 [http-nio-8080-exec-9] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:08:02,624 792340 [http-nio-8080-exec-10] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:08:03,201 792917 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:08:04,041 793757 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: STONE

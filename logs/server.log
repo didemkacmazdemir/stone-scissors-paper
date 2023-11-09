@@ -1,0 +1,463 @@
+2023-10-30 17:40:51,098 853  [main] INFO  c.d.s.StoneScissorsPaperApplication - Starting StoneScissorsPaperApplication using Java 20.0.2 with PID 49643 (/Users/hakan/Desktop/DidemProjects/stone-scissors-paper/target/classes started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-10-30 17:40:51,133 888  [main] INFO  c.d.s.StoneScissorsPaperApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 17:40:52,104 1859 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-30 17:40:52,165 1920 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2023-10-30 17:40:52,681 2436 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-30 17:40:52,688 2443 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-30 17:40:52,689 2444 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-30 17:40:52,690 2445 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-30 17:40:52,769 2524 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-30 17:40:52,770 2525 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1586 ms
+2023-10-30 17:40:52,806 2561 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-30 17:40:53,071 2826 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-10-30 17:40:53,081 2836 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-30 17:40:53,131 2886 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-10-30 17:40:53,576 3331 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-30 17:40:54,124 3879 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 17:40:54,752 4507 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-30 17:40:56,101 5856 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-30 17:40:56,128 5883 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-30 17:40:56,151 5906 [main] INFO  c.d.s.StoneScissorsPaperApplication - Started StoneScissorsPaperApplication in 5.723 seconds (process running for 6.555)
+2023-10-30 17:41:10,471 20226 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 17:41:10,473 20228 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-10-30 17:41:10,475 20230 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-10-30 17:41:17,199 802  [main] INFO  c.d.s.StoneScissorsPaperApplication - Starting StoneScissorsPaperApplication using Java 20.0.2 with PID 49689 (/Users/hakan/Desktop/DidemProjects/stone-scissors-paper/target/classes started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-10-30 17:41:17,232 835  [main] INFO  c.d.s.StoneScissorsPaperApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 17:41:18,264 1867 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-30 17:41:18,322 1925 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-10-30 17:41:18,844 2447 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-30 17:41:18,850 2453 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-30 17:41:18,852 2455 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-30 17:41:18,852 2455 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-30 17:41:18,925 2528 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-30 17:41:18,926 2529 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1638 ms
+2023-10-30 17:41:18,957 2560 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-30 17:41:19,190 2793 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-10-30 17:41:19,206 2809 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-30 17:41:19,255 2858 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-10-30 17:41:19,685 3288 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-30 17:41:20,249 3852 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 17:41:20,888 4491 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-30 17:41:22,155 5758 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-30 17:41:22,182 5785 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-30 17:41:22,196 5799 [main] INFO  c.d.s.StoneScissorsPaperApplication - Started StoneScissorsPaperApplication in 5.624 seconds (process running for 6.329)
+2023-10-30 17:41:53,565 37168 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-30 17:41:53,566 37169 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-10-30 17:41:53,572 37175 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-10-30 17:41:53,654 37257 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: paper
+2023-10-30 17:41:53,658 37261 [http-nio-8080-exec-1] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: paper, and the result is: TIE
+2023-10-30 17:44:09,331 172934 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:09,338 172941 [http-nio-8080-exec-4] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: PAPER, and the result is: TIE
+2023-10-30 17:44:13,238 176841 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:13,246 176849 [http-nio-8080-exec-5] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: PAPER, and the result is: COMPUTER
+2023-10-30 17:44:18,763 182366 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:18,765 182368 [http-nio-8080-exec-7] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: PAPER, and the result is: TIE
+2023-10-30 17:44:19,848 183451 [http-nio-8080-exec-8] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:19,849 183452 [http-nio-8080-exec-8] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: PAPER, and the result is: TIE
+2023-10-30 17:44:20,617 184220 [http-nio-8080-exec-9] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:20,622 184225 [http-nio-8080-exec-9] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: PAPER, and the result is: TIE
+2023-10-30 17:44:21,315 184918 [http-nio-8080-exec-10] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:21,316 184919 [http-nio-8080-exec-10] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: PAPER, and the result is: COMPUTER
+2023-10-30 17:44:24,029 187632 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:24,031 187634 [http-nio-8080-exec-2] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: PAPER, and the result is: TIE
+2023-10-30 17:44:24,961 188564 [http-nio-8080-exec-3] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:24,963 188566 [http-nio-8080-exec-3] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: PAPER, and the result is: CLIENT
+2023-10-30 17:44:25,541 189144 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-10-30 17:44:25,543 189146 [http-nio-8080-exec-4] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: PAPER, and the result is: CLIENT
+2023-10-30 17:44:27,909 191512 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-10-30 17:44:27,912 191515 [http-nio-8080-exec-5] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: SCISSORS, and the result is: CLIENT
+2023-10-30 17:44:33,535 197138 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-10-30 17:44:33,540 197143 [http-nio-8080-exec-7] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: SCISSORS, and the result is: TIE
+2023-10-30 17:44:38,928 202531 [http-nio-8080-exec-9] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-10-30 17:44:38,932 202535 [http-nio-8080-exec-9] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: SCISSORS, and the result is: COMPUTER
+2023-10-30 17:44:43,102 206705 [http-nio-8080-exec-10] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:43,105 206708 [http-nio-8080-exec-10] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: STONE, and the result is: TIE
+2023-10-30 17:44:45,366 208969 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:45,372 208975 [http-nio-8080-exec-2] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: STONE, and the result is: CLIENT
+2023-10-30 17:44:47,836 211439 [http-nio-8080-exec-3] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:47,838 211441 [http-nio-8080-exec-3] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: STONE, and the result is: TIE
+2023-10-30 17:44:49,119 212722 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:49,120 212723 [http-nio-8080-exec-5] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: STONE, and the result is: CLIENT
+2023-10-30 17:44:50,524 214127 [http-nio-8080-exec-6] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:50,526 214129 [http-nio-8080-exec-6] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: STONE, and the result is: TIE
+2023-10-30 17:44:51,753 215356 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:51,756 215359 [http-nio-8080-exec-7] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: STONE, and the result is: COMPUTER
+2023-10-30 17:44:52,376 215979 [http-nio-8080-exec-8] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:52,377 215980 [http-nio-8080-exec-8] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: STONE, and the result is: COMPUTER
+2023-10-30 17:44:53,244 216847 [http-nio-8080-exec-9] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:44:53,249 216852 [http-nio-8080-exec-9] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: STONE, and the result is: COMPUTER
+2023-10-30 17:45:30,105 1498 [main] INFO  c.d.s.StoneScissorsPaperApplicationTests - Starting StoneScissorsPaperApplicationTests using Java 20.0.2 with PID 50088 (started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-10-30 17:45:30,110 1503 [main] INFO  c.d.s.StoneScissorsPaperApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 17:45:31,577 2970 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-30 17:45:31,706 3099 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115 ms. Found 1 JPA repository interfaces.
+2023-10-30 17:45:32,394 3787 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-30 17:45:32,548 3941 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-10-30 17:45:32,550 3943 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-30 17:45:32,876 4269 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-30 17:45:33,708 5101 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 17:45:34,621 6014 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-30 17:45:36,940 8333 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-10-30 17:45:37,057 8450 [main] INFO  c.d.s.StoneScissorsPaperApplicationTests - Started StoneScissorsPaperApplicationTests in 7.598 seconds (process running for 12.449)
+2023-10-30 17:45:37,160 8553 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.didem.stonescissorspaper.controller.GameControllerTest]: GameControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-30 17:45:37,234 8627 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.didem.stonescissorspaper.StoneScissorsPaperApplication for test class com.didem.stonescissorspaper.controller.GameControllerTest
+2023-10-30 17:45:37,305 8698 [main] INFO  c.d.s.controller.GameControllerTest - Starting GameControllerTest using Java 20.0.2 with PID 50088 (started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-10-30 17:45:37,307 8700 [main] INFO  c.d.s.controller.GameControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 17:45:38,952 10345 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-30 17:45:38,956 10349 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-30 17:45:38,977 10370 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2023-10-30 17:45:38,999 10392 [main] INFO  c.d.s.controller.GameControllerTest - Started GameControllerTest in 1.755 seconds (process running for 14.391)
+2023-10-30 17:45:39,171 10564 [main] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 17:45:39,294 10687 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 17:45:39,300 10693 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-10-30 17:45:39,308 10701 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-10-30 17:53:16,972 720575 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 17:53:16,982 720585 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-10-30 17:53:16,992 720595 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-10-30 17:53:24,075 826  [main] INFO  c.d.s.StoneScissorsPaperApplication - Starting StoneScissorsPaperApplication using Java 20.0.2 with PID 50767 (/Users/hakan/Desktop/DidemProjects/stone-scissors-paper/target/classes started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-10-30 17:53:24,082 833  [main] INFO  c.d.s.StoneScissorsPaperApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 17:53:25,028 1779 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-30 17:53:25,090 1841 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2023-10-30 17:53:25,599 2350 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-30 17:53:25,605 2356 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-30 17:53:25,607 2358 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-30 17:53:25,607 2358 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-30 17:53:25,675 2426 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-30 17:53:25,676 2427 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1532 ms
+2023-10-30 17:53:25,705 2456 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-30 17:53:25,927 2678 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-10-30 17:53:25,937 2688 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-30 17:53:25,981 2732 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-10-30 17:53:26,401 3152 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-30 17:53:26,922 3673 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 17:53:27,531 4282 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-30 17:53:28,790 5541 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-30 17:53:28,818 5569 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-30 17:53:28,834 5585 [main] INFO  c.d.s.StoneScissorsPaperApplication - Started StoneScissorsPaperApplication in 5.41 seconds (process running for 6.119)
+2023-10-30 18:34:10,016 2446767 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m13s753ms).
+2023-10-30 18:38:15,409 1617 [main] INFO  c.d.s.controller.GameControllerTest - Starting GameControllerTest using Java 20.0.2 with PID 52600 (started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-10-30 18:38:15,412 1620 [main] INFO  c.d.s.controller.GameControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 18:38:23,770 9978 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-30 18:38:23,772 9980 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-30 18:38:23,782 9990 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2023-10-30 18:38:23,830 10038 [main] INFO  c.d.s.controller.GameControllerTest - Started GameControllerTest in 9.299 seconds (process running for 11.683)
+2023-10-30 18:38:24,002 10210 [main] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-10-30 19:42:16,152 6532903 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m35s826ms).
+2023-10-30 19:47:58,023 6874774 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m41s873ms).
+2023-10-30 20:45:24,606 10321357 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m26s92ms).
+2023-10-30 21:21:39,272 833  [main] INFO  c.d.s.StoneScissorsPaperApplication - Starting StoneScissorsPaperApplication using Java 20.0.2 with PID 76854 (/Users/hakan/Desktop/DidemProjects/stone-scissors-paper/target/classes started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-10-30 21:21:39,276 837  [main] INFO  c.d.s.StoneScissorsPaperApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 21:21:40,387 1948 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-30 21:21:40,456 2017 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2023-10-30 21:21:40,955 2516 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-30 21:21:40,961 2522 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-30 21:21:40,963 2524 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-30 21:21:40,964 2525 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-30 21:21:41,031 2592 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-30 21:21:41,031 2592 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1663 ms
+2023-10-30 21:21:41,062 2623 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-30 21:21:41,316 2877 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-10-30 21:21:41,325 2886 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-30 21:21:41,372 2933 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-10-30 21:21:41,830 3391 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-30 21:21:42,360 3921 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 21:21:42,954 4515 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-30 21:21:43,826 5387 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-30 21:21:43,832 5393 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-10-30 21:21:43,834 5395 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 21:21:43,836 5397 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-10-30 21:21:43,838 5399 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-10-30 21:21:43,839 5400 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-30 21:21:43,839 5400 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-10-30 21:21:43,847 5408 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-30 21:21:43,848 5409 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-30 21:21:43,860 5421 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-30 21:21:43,875 5436 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-10-30 21:23:04,856 3790 [main] INFO  c.d.s.StoneScissorsPaperApplication - Starting StoneScissorsPaperApplication using Java 20.0.2 with PID 76970 (/Users/hakan/Desktop/DidemProjects/stone-scissors-paper/target/classes started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-10-30 21:23:04,866 3800 [main] INFO  c.d.s.StoneScissorsPaperApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 21:23:11,206 10140 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-30 21:23:11,552 10486 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 308 ms. Found 1 JPA repository interfaces.
+2023-10-30 21:23:15,466 14400 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-30 21:23:16,014 14948 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10895 ms
+2023-10-30 21:23:16,486 15420 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-30 21:23:17,172 16106 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-10-30 21:23:17,176 16110 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-30 21:23:17,231 16165 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-10-30 21:23:19,516 18450 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-30 21:23:22,308 21242 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 21:23:25,186 24120 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-30 21:23:30,454 29388 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-30 21:23:30,588 29522 [main] INFO  c.d.s.StoneScissorsPaperApplication - Started StoneScissorsPaperApplication in 28.488 seconds (process running for 36.201)
+2023-10-30 21:23:30,666 29600 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 21:23:30,675 29609 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-10-30 21:23:30,680 29614 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-10-30 21:23:33,883 793  [main] INFO  c.d.s.StoneScissorsPaperApplication - Starting StoneScissorsPaperApplication using Java 20.0.2 with PID 77013 (/Users/hakan/Desktop/DidemProjects/stone-scissors-paper/target/classes started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-10-30 21:23:33,916 826  [main] INFO  c.d.s.StoneScissorsPaperApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 21:23:34,831 1741 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-30 21:23:34,897 1807 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2023-10-30 21:23:35,385 2295 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-30 21:23:35,391 2301 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-30 21:23:35,394 2304 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-30 21:23:35,394 2304 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-30 21:23:35,465 2375 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-30 21:23:35,465 2375 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1488 ms
+2023-10-30 21:23:35,494 2404 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-30 21:23:35,731 2641 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-10-30 21:23:35,740 2650 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-30 21:23:35,785 2695 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-10-30 21:23:36,194 3104 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-30 21:23:36,709 3619 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 21:23:37,303 4213 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-30 21:23:38,571 5481 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-30 21:23:38,599 5509 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-30 21:23:38,619 5529 [main] INFO  c.d.s.StoneScissorsPaperApplication - Started StoneScissorsPaperApplication in 5.365 seconds (process running for 6.076)
+2023-10-30 22:17:27,192 3234102 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-30 22:17:27,194 3234104 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-10-30 22:17:27,199 3234109 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-10-31 01:45:18,477 15705387 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s211ms).
+2023-10-31 03:31:23,712 22070622 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m34s408ms).
+2023-10-31 04:40:05,230 26192140 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m11s512ms).
+2023-10-31 05:46:35,530 30182440 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m30s300ms).
+2023-10-31 06:52:18,288 34125198 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m42s758ms).
+2023-10-31 07:57:03,003 38009913 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m44s715ms).
+2023-10-31 09:18:22,702 42889612 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m19s699ms).
+2023-10-31 09:23:37,658 43204568 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m14s956ms).
+2023-10-31 09:26:55,418 43402328 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s726ms).
+2023-10-31 12:08:29,597 53096507 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m32s992ms).
+2023-10-31 12:57:07,126 56014036 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m7s193ms).
+2023-10-31 13:50:55,493 59242403 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m48s232ms).
+2023-10-31 15:10:23,673 64010583 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m28s181ms).
+2023-10-31 16:20:19,444 68206354 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h9m55s771ms).
+2023-10-31 17:29:11,529 72338439 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m52s85ms).
+2023-10-31 18:12:11,909 74918819 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m380ms).
+2023-10-31 18:29:04,885 75931795 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m52s976ms).
+2023-10-31 18:46:57,050 77003960 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m52s165ms).
+2023-10-31 19:02:55,841 77962751 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m58s791ms).
+2023-10-31 19:20:25,802 79012712 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m29s961ms).
+2023-10-31 20:02:31,378 81538288 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m5s576ms).
+2023-10-31 20:38:57,183 83724093 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-31 20:38:57,198 83724108 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-10-31 20:38:57,203 83724113 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-11-08 22:09:33,632 923  [main] INFO  c.d.s.StoneScissorsPaperApplication - Starting StoneScissorsPaperApplication using Java 20.0.2 with PID 4741 (/Users/hakan/Desktop/DidemProjects/stone-scissors-paper/target/classes started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-11-08 22:09:33,636 927  [main] INFO  c.d.s.StoneScissorsPaperApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 22:09:34,706 1997 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 22:09:34,768 2059 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2023-11-08 22:09:35,309 2600 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-11-08 22:09:35,316 2607 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 22:09:35,319 2610 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-08 22:09:35,319 2610 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-08 22:09:35,399 2690 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-08 22:09:35,399 2690 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1673 ms
+2023-11-08 22:09:35,430 2721 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-11-08 22:09:35,681 2972 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-08 22:09:35,691 2982 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-11-08 22:09:35,737 3028 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-08 22:09:36,161 3452 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 22:09:36,698 3989 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 22:09:37,320 4611 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 22:09:38,619 5910 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 22:09:38,649 5940 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 22:09:38,666 5957 [main] INFO  c.d.s.StoneScissorsPaperApplication - Started StoneScissorsPaperApplication in 5.741 seconds (process running for 6.544)
+2023-11-08 22:09:40,612 7903 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 22:09:40,613 7904 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-11-08 22:09:40,616 7907 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-11-08 22:09:40,898 8189 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:09:40,909 8200 [http-nio-8080-exec-1] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: PAPER, and the result is: COMPUTER
+2023-11-08 22:09:41,935 9226 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:09:41,936 9227 [http-nio-8080-exec-2] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: SCISSORS, and the result is: COMPUTER
+2023-11-08 22:09:45,375 12666 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 22:09:45,378 12669 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-11-08 22:09:45,380 12671 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-11-08 22:10:05,849 755  [main] INFO  c.d.s.StoneScissorsPaperApplication - Starting StoneScissorsPaperApplication using Java 20.0.2 with PID 4754 (/Users/hakan/Desktop/DidemProjects/stone-scissors-paper/target/classes started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-11-08 22:10:05,852 758  [main] INFO  c.d.s.StoneScissorsPaperApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 22:10:06,819 1725 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 22:10:06,873 1779 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2023-11-08 22:10:07,406 2312 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-11-08 22:10:07,412 2318 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 22:10:07,414 2320 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-08 22:10:07,414 2320 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-08 22:10:07,482 2388 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-08 22:10:07,482 2388 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1542 ms
+2023-11-08 22:10:07,513 2419 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-11-08 22:10:07,756 2662 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-08 22:10:07,765 2671 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-11-08 22:10:07,822 2728 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-08 22:10:08,215 3121 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 22:10:08,716 3622 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 22:10:09,294 4200 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 22:10:10,597 5503 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 22:10:10,626 5532 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 22:10:10,640 5546 [main] INFO  c.d.s.StoneScissorsPaperApplication - Started StoneScissorsPaperApplication in 5.372 seconds (process running for 6.104)
+2023-11-08 22:17:39,100 454006 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 22:17:39,102 454008 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-11-08 22:17:39,107 454013 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-11-08 22:17:39,179 454085 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:39,182 454088 [http-nio-8080-exec-1] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: PAPER, and the result is: COMPUTER
+2023-11-08 22:17:39,436 454342 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:39,436 454342 [http-nio-8080-exec-2] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: PAPER, and the result is: CLIENT
+2023-11-08 22:17:40,004 454910 [http-nio-8080-exec-3] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:40,005 454911 [http-nio-8080-exec-3] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: SCISSORS, and the result is: CLIENT
+2023-11-08 22:17:40,555 455461 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:40,557 455463 [http-nio-8080-exec-4] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: PAPER, and the result is: TIE
+2023-11-08 22:17:41,091 455997 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-08 22:17:41,093 455999 [http-nio-8080-exec-5] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: STONE, and the result is: CLIENT
+2023-11-08 22:17:41,721 456627 [http-nio-8080-exec-6] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:41,724 456630 [http-nio-8080-exec-6] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: PAPER, and the result is: CLIENT
+2023-11-08 22:17:42,260 457166 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:42,262 457168 [http-nio-8080-exec-7] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: SCISSORS, and the result is: CLIENT
+2023-11-08 22:17:42,773 457679 [http-nio-8080-exec-8] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:42,774 457680 [http-nio-8080-exec-8] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: PAPER, and the result is: COMPUTER
+2023-11-08 22:17:43,027 457933 [http-nio-8080-exec-9] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:43,028 457934 [http-nio-8080-exec-9] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: PAPER, and the result is: TIE
+2023-11-08 22:17:43,237 458143 [http-nio-8080-exec-10] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:43,237 458143 [http-nio-8080-exec-10] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: PAPER, and the result is: CLIENT
+2023-11-08 22:17:43,431 458337 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:43,434 458340 [http-nio-8080-exec-1] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: PAPER, and the result is: TIE
+2023-11-08 22:17:43,619 458525 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-08 22:17:43,621 458527 [http-nio-8080-exec-2] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: PAPER, and the result is: CLIENT
+2023-11-08 22:17:44,147 459053 [http-nio-8080-exec-3] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:44,149 459055 [http-nio-8080-exec-3] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: SCISSORS, and the result is: CLIENT
+2023-11-08 22:17:44,320 459226 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:44,321 459227 [http-nio-8080-exec-4] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: SCISSORS, and the result is: CLIENT
+2023-11-08 22:17:44,503 459409 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:44,504 459410 [http-nio-8080-exec-5] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: SCISSORS, and the result is: COMPUTER
+2023-11-08 22:17:44,868 459774 [http-nio-8080-exec-6] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:44,870 459776 [http-nio-8080-exec-6] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: SCISSORS, and the result is: TIE
+2023-11-08 22:17:45,049 459955 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-08 22:17:45,051 459957 [http-nio-8080-exec-7] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: SCISSORS, and the result is: COMPUTER
+2023-11-08 22:17:45,858 460764 [http-nio-8080-exec-8] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-08 22:17:45,860 460766 [http-nio-8080-exec-8] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: STONE, and the result is: CLIENT
+2023-11-08 23:35:40,150 5135056 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m1s641ms).
+2023-11-09 01:57:59,790 13674696 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m19s106ms).
+2023-11-09 03:06:58,926 17813832 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m59s143ms).
+2023-11-09 04:28:14,037 22688943 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m15s112ms).
+2023-11-09 05:37:09,173 26824079 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m55s135ms).
+2023-11-09 06:10:20,284 28815190 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m11s111ms).
+2023-11-09 06:27:47,664 29862570 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m27s381ms).
+2023-11-09 06:45:08,147 30903053 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m20s482ms).
+2023-11-09 07:19:15,587 32950493 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m37s429ms).
+2023-11-09 08:24:21,684 36856590 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m6s98ms).
+2023-11-09 09:25:20,403 40515309 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58s719ms).
+2023-11-09 10:29:01,450 44336356 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m41s47ms).
+2023-11-09 10:45:36,573 45331479 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m35s123ms).
+2023-11-09 12:39:24,966 52159872 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m47s503ms).
+2023-11-09 13:11:56,337 54111243 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m31s371ms).
+2023-11-09 14:20:11,165 58206071 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m14s341ms).
+2023-11-09 15:33:56,445 62631351 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m45s27ms).
+2023-11-09 15:46:02,819 63357725 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m6s374ms).
+2023-11-09 15:47:49,914 63464820 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-09 15:47:49,920 63464826 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-11-09 15:47:49,924 63464830 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-11-09 15:47:55,108 900  [main] INFO  c.d.s.StoneScissorsPaperApplication - Starting StoneScissorsPaperApplication using Java 20.0.2 with PID 11770 (/Users/hakan/Desktop/DidemProjects/stone-scissors-paper/target/classes started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-11-09 15:47:55,111 903  [main] INFO  c.d.s.StoneScissorsPaperApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-09 15:47:56,198 1990 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-09 15:47:56,256 2048 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2023-11-09 15:47:56,797 2589 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-11-09 15:47:56,804 2596 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-09 15:47:56,806 2598 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-09 15:47:56,806 2598 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-09 15:47:56,884 2676 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-09 15:47:56,884 2676 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1683 ms
+2023-11-09 15:47:56,918 2710 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-11-09 15:47:57,161 2953 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-09 15:47:57,170 2962 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-11-09 15:47:57,213 3005 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-09 15:47:57,638 3430 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-09 15:47:58,202 3994 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-09 15:47:58,782 4574 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-09 15:48:00,072 5864 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-11-09 15:48:00,102 5894 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-09 15:48:00,123 5915 [main] INFO  c.d.s.StoneScissorsPaperApplication - Started StoneScissorsPaperApplication in 5.697 seconds (process running for 6.568)
+2023-11-09 15:49:18,040 83832 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-09 15:49:18,041 83833 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-11-09 15:49:18,044 83836 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-11-09 15:49:18,103 83895 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-09 15:49:18,106 83898 [http-nio-8080-exec-1] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: PAPER, and the result is: COMPUTER
+2023-11-09 15:49:18,568 84360 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:49:18,569 84361 [http-nio-8080-exec-2] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: STONE, and the result is: CLIENT
+2023-11-09 15:49:19,837 85629 [http-nio-8080-exec-3] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-09 15:49:19,839 85631 [http-nio-8080-exec-3] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: SCISSORS, and the result is: COMPUTER
+2023-11-09 15:49:20,344 86136 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-09 15:49:20,346 86138 [http-nio-8080-exec-4] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: PAPER, and the result is: TIE
+2023-11-09 15:52:55,719 301511 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-09 15:52:55,727 301519 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-11-09 15:52:55,729 301521 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-11-09 15:54:51,139 855  [main] INFO  c.d.s.StoneScissorsPaperApplication - Starting StoneScissorsPaperApplication using Java 20.0.2 with PID 1011 (/Users/hakan/Desktop/DidemProjects/stone-scissors-paper/target/classes started by hakan in /Users/hakan/Desktop/DidemProjects/stone-scissors-paper)
+2023-11-09 15:54:51,143 859  [main] INFO  c.d.s.StoneScissorsPaperApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-09 15:54:52,269 1985 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-09 15:54:52,325 2041 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-11-09 15:54:52,822 2538 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-11-09 15:54:52,829 2545 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-09 15:54:52,830 2546 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-09 15:54:52,831 2547 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-09 15:54:52,905 2621 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-09 15:54:52,905 2621 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1665 ms
+2023-11-09 15:54:52,936 2652 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-11-09 15:54:53,168 2884 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-09 15:54:53,177 2893 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-11-09 15:54:53,219 2935 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-09 15:54:53,641 3357 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-09 15:54:54,204 3920 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-09 15:54:54,794 4510 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-09 15:54:55,674 5390 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-11-09 15:54:55,694 5410 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-09 15:54:55,717 5433 [main] INFO  c.d.s.StoneScissorsPaperApplication - Started StoneScissorsPaperApplication in 5.253 seconds (process running for 6.043)
+2023-11-09 15:56:17,882 87598 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-09 15:56:17,884 87600 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-11-09 15:56:17,886 87602 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-11-09 15:56:17,942 87658 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-09 15:56:17,945 87661 [http-nio-8080-exec-1] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: PAPER, and the result is: TIE
+2023-11-09 15:56:18,373 88089 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-09 15:56:18,376 88092 [http-nio-8080-exec-2] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: PAPER, and the result is: COMPUTER
+2023-11-09 15:56:18,908 88624 [http-nio-8080-exec-3] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-09 15:56:18,910 88626 [http-nio-8080-exec-3] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: SCISSORS, and the result is: CLIENT
+2023-11-09 15:56:19,767 89483 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:19,769 89485 [http-nio-8080-exec-4] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: STONE, and the result is: CLIENT
+2023-11-09 15:56:20,252 89968 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:20,257 89973 [http-nio-8080-exec-5] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: STONE, and the result is: COMPUTER
+2023-11-09 15:56:20,474 90190 [http-nio-8080-exec-6] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:20,475 90191 [http-nio-8080-exec-6] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: STONE, and the result is: TIE
+2023-11-09 15:56:20,617 90333 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:20,618 90334 [http-nio-8080-exec-7] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: STONE, and the result is: TIE
+2023-11-09 15:56:20,794 90510 [http-nio-8080-exec-8] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:20,795 90511 [http-nio-8080-exec-8] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: STONE, and the result is: TIE
+2023-11-09 15:56:21,005 90721 [http-nio-8080-exec-9] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:21,007 90723 [http-nio-8080-exec-9] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: STONE, and the result is: CLIENT
+2023-11-09 15:56:21,214 90930 [http-nio-8080-exec-10] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:21,216 90932 [http-nio-8080-exec-10] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: STONE, and the result is: CLIENT
+2023-11-09 15:56:21,651 91367 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:21,653 91369 [http-nio-8080-exec-1] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: STONE, and the result is: CLIENT
+2023-11-09 15:56:21,812 91528 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 15:56:21,813 91529 [http-nio-8080-exec-2] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: STONE, and the result is: COMPUTER
+2023-11-09 16:07:38,553 768269 [http-nio-8080-exec-4] INFO  c.d.s.controller.GameController - Player selected: SCISSORS
+2023-11-09 16:07:38,555 768271 [http-nio-8080-exec-4] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : SCISSORS, player choice was: SCISSORS, and the result is: TIE
+2023-11-09 16:07:52,032 781748 [http-nio-8080-exec-5] INFO  c.d.s.controller.GameController - Player selected: PAPER
+2023-11-09 16:07:52,033 781749 [http-nio-8080-exec-5] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: PAPER, and the result is: CLIENT
+2023-11-09 16:07:58,909 788625 [http-nio-8080-exec-6] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:07:58,911 788627 [http-nio-8080-exec-6] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: STONE, and the result is: COMPUTER
+2023-11-09 16:08:00,049 789765 [http-nio-8080-exec-7] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:08:00,050 789766 [http-nio-8080-exec-7] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: STONE, and the result is: TIE
+2023-11-09 16:08:01,297 791013 [http-nio-8080-exec-8] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:08:01,299 791015 [http-nio-8080-exec-8] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: STONE, and the result is: TIE
+2023-11-09 16:08:02,031 791747 [http-nio-8080-exec-9] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:08:02,037 791753 [http-nio-8080-exec-9] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: STONE, and the result is: COMPUTER
+2023-11-09 16:08:02,624 792340 [http-nio-8080-exec-10] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:08:02,625 792341 [http-nio-8080-exec-10] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : STONE, player choice was: STONE, and the result is: TIE
+2023-11-09 16:08:03,201 792917 [http-nio-8080-exec-1] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:08:03,202 792918 [http-nio-8080-exec-1] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: STONE, and the result is: COMPUTER
+2023-11-09 16:08:04,041 793757 [http-nio-8080-exec-2] INFO  c.d.s.controller.GameController - Player selected: STONE
+2023-11-09 16:08:04,047 793763 [http-nio-8080-exec-2] INFO  c.d.s.service.impl.GameServiceImpl - computer choice was : PAPER, player choice was: STONE, and the result is: COMPUTER
